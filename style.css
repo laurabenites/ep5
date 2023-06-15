@@ -16,4 +16,17 @@ body{
     border:blueviolet 2px solid;
     display: flex;
     width: 1200px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0,5s;
 }
