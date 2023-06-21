@@ -1,32 +1,45 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    box-sizing: border-box;
-}
-  
-body{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    min-height: 100vh;
+header{
+    grid-area: cabe;
+    border: 2px rebeccapurple;
 }
  
-.container_mae{
-    border:blueviolet 2px solid;
-    display: flex;
-    width: 1200px;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+aside{
+    grid-area: brac;
+    border: 2px  red;
 }
 
-.card{
-    padding: 30px;
-    width: 300px;
-    margin: 20px;
-    text-align: center;
-    border-radius: 20px;
-    transition: 0,5s;
+main{
+    grid-area: prin;
+    border: 2px palevioletred;
 }
+
+footer{
+    grid-area: roda;
+    border: 2px blue;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "cabe cabe cabe"
+    "branc prin prin"
+    "roda roda roda";
+    grid-template-rows: 100px auto 200px;
+}
+
+header img{
+    height: 190px;
+    width: auto;
+}
+
+header nav{
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+
+header li{
+    display: inline;
+    margin: 25px;
+}
+
