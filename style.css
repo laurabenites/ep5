@@ -1,3 +1,14 @@
+body{
+    display: grid;
+    text-align: center;
+    grid-template-areas: 
+    "cabe cabe cabe"
+    "branc prin prin"
+    "roda roda roda";
+  
+    background-color: pink;
+}
+
 header{
     grid-area: cabe;
     border: 2px rebeccapurple;
@@ -15,16 +26,7 @@ main{
 
 footer{
     grid-area: roda;
-    border: 2px blue;
-}
-
-body{
-    display: grid;
-    grid-template-areas: 
-    "cabe cabe cabe"
-    "branc prin prin"
-    "roda roda roda";
-    grid-template-rows: 100px auto 200px;
+    border: 5px blue;
 }
 
 header img{
@@ -33,13 +35,9 @@ header img{
 }
 
 header nav{
+    border: brown 2px solid;
     position: absolute;
     right: 0px;
     top: 100px;
-}
-
-header li{
-    display: inline;
-    margin: 25px;
 }
 
