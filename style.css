@@ -1,23 +1,27 @@
 header{
     grid-area: cabe;
-    background-color: rgb(204, 123, 214);
-    color: black;
+    background-color: #ae00ff;
+    box-shadow: 3px 6px 9px 5px #000000; 
+
 }
 aside{
     grid-area: brac;
-    background-color: rgb(165, 121, 221);
+    background: linear-gradient(#ae00ff, #11111157);
+    box-shadow: 3px 6px 9px 5px #000000; 
 }
 main{
     grid-area: prin;
-    background-color: rgb(234, 75, 240);
+    background: linear-gradient(#ae00ff, #11111157);
+    box-shadow: 3px 6px 9px 5px #000000; 
 }
 footer{
     grid-area: roda;
-    background-color: #00a2ff67;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 3px 6px 9px 5px #000000; 
 }
 section{
     grid-area: secn;
-    background-color: rgba(127, 255, 212, 0.884);
+    background-color: aquamarine;
     display: none;
 }
 body{
@@ -26,8 +30,10 @@ body{
     "cabe cabe"
     "brac prin"
     "roda roda";
-    grid-template-rows: 200px 500px 200px;
+    grid-template-rows: 200px auto 200px;
     grid-template-columns: 300px auto;
+    gap: 7px;
+    background: linear-gradient(#ae00ff, #11111157);
 }
 header img{
     height: 150px;
@@ -67,3 +73,64 @@ header img{
     }
     
 }
+
+.elemento_pai{
+    /*     border: 2px red solid;
+     */    display: flex;
+        justify-content: center;
+        width: 1200px;
+        padding: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .card{
+        border-radius: 10px;
+        padding: 10px;
+        width: 300px;
+        margin: 20px;
+        text-align: center;
+        box-shadow: 3px 6px 9px #0000006b;
+        transition: 0.5s;
+        
+    }
+    .texto a{
+        display: block;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    
+    .card:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+    .card:hover a{
+        background-color: #6200ff;
+        color: rgb(255, 255, 255);
+    }
+    .card:hover img{
+        filter: none;
+    }
+    
+    .texto a:hover{
+        background-color: #6200ff;
+    }
+
+    li{
+        margin: 100px;
+        display: inline;
+    }
+
+    .field-search{
+        margin: 1050px;
+        display: inline;
+    }
+
+    .card img{
+        width: auto;
+        height: 150px;
+        border-radius: 20px;
+    }
