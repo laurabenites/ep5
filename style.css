@@ -1,23 +1,23 @@
 header{
     grid-area: cabe;
-    background-color: #ae00ff;
+    background-color: #f16df5;
     box-shadow: 3px 6px 9px 5px #000000; 
 
 }
 aside{
     grid-area: brac;
-    background: linear-gradient(#ae00ff, #11111157);
-    box-shadow: 3px 6px 9px 5px #000000; 
+    
+    box-shadow: 3px 6px 9px 5px #ff44f6; 
 }
 main{
     grid-area: prin;
-    background: linear-gradient(#ae00ff, #11111157);
-    box-shadow: 3px 6px 9px 5px #000000; 
+    
+    box-shadow: 3px 6px 9px 5px #f08debd3; 
 }
 footer{
     grid-area: roda;
-    background-color: rgb(0, 0, 0);
-    box-shadow: 3px 6px 9px 5px #000000; 
+    background-color: rgb(255, 92, 233);
+    box-shadow: 3px 6px 9px 5px #fd6efd; 
 }
 section{
     grid-area: secn;
@@ -33,7 +33,7 @@ body{
     grid-template-rows: 200px auto 200px;
     grid-template-columns: 300px auto;
     gap: 7px;
-    background: linear-gradient(#ae00ff, #11111157);
+    background-color: rgb(255, 255, 255)5;
 }
 header img{
     height: 150px;
@@ -84,19 +84,21 @@ header img{
         align-items: center;
     }
     .card{
+        
         border-radius: 10px;
         padding: 10px;
         width: 300px;
         margin: 20px;
         text-align: center;
-        box-shadow: 3px 6px 9px #0000006b;
+        box-shadow: 3px 6px 9px #681c1c6b;
         transition: 0.5s;
+
         
     }
     .texto a{
         display: block;
         padding: 10px 20px;
-        background-color: black;
+        background-color: rgb(10, 10, 10);
         color: white;
         border-radius: 20px;
         text-decoration: none;
@@ -104,19 +106,19 @@ header img{
     }
     
     .card:hover{
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255, 66, 214);
         color: rgb(0, 0, 0);
     }
     .card:hover a{
-        background-color: #6200ff;
-        color: rgb(255, 255, 255);
+        background-color: rgb(247, 247, 253);
+        color: rgb(255, 21, 216);
     }
     .card:hover img{
         filter: none;
     }
     
     .texto a:hover{
-        background-color: #6200ff;
+        background-color: #ffffff;
     }
 
     li{
@@ -134,3 +136,5 @@ header img{
         height: 150px;
         border-radius: 20px;
     }
+    
+    
