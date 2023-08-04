@@ -1,18 +1,18 @@
 header{
     grid-area: cabe;
-    background-color: #f16df5;
-    box-shadow: 3px 6px 9px 5px #000000; 
+    background-color: #e150e4;
+    box-shadow: 3px 6px 9px 5px #c48be6; 
 
 }
 aside{
     grid-area: brac;
     
-    box-shadow: 3px 6px 9px 5px #ff44f6; 
+    box-shadow: 3px 6px 9px 5px #d293f0; 
 }
 main{
     grid-area: prin;
     
-    box-shadow: 3px 6px 9px 5px #f08debd3; 
+    box-shadow: 3px 6px 9px 5px #d66df7d3; 
 }
 footer{
     grid-area: roda;
