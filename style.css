@@ -1,6 +1,6 @@
 header{
     grid-area: cabe;
-    background-color: #e150e4;
+    background-color: #fd87ff;
     box-shadow: 3px 6px 9px 5px #c48be6; 
 
 }
@@ -12,12 +12,12 @@ aside{
 main{
     grid-area: prin;
     
-    box-shadow: 3px 6px 9px 5px #d66df7d3; 
+    box-shadow: 3px 6px 9px 5px #f36eecd3; 
 }
 footer{
     grid-area: roda;
-    background-color: rgb(255, 92, 233);
-    box-shadow: 3px 6px 9px 5px #fd6efd; 
+    background-color: rgb(228, 119, 255);
+    box-shadow: 3px 6px 9px 5px #f577f5; 
 }
 section{
     grid-area: secn;
@@ -106,7 +106,7 @@ header img{
     }
     
     .card:hover{
-        background-color: rgb(255, 66, 214);
+        background-color: rgb(211, 66, 255);
         color: rgb(0, 0, 0);
     }
     .card:hover a{
