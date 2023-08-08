@@ -2,6 +2,7 @@ header{
     grid-area: cabe;
     background-color: #fd87ff;
     box-shadow: 3px 6px 9px 5px #c48be6; 
+    position: relative;
 
 }
 aside{
@@ -121,10 +122,6 @@ header img{
         background-color: #ffffff;
     }
 
-    li{
-        margin: 100px;
-        display: inline;
-    }
 
     .field-search{
         margin: 1050px;
@@ -136,5 +133,21 @@ header img{
         height: 150px;
         border-radius: 20px;
     }
+   header nav{
+        position: absolute;
+        margin: 10px;
+        right: 50px;
+        top: 150px;
+    }
     
-    
+    header nav li{
+
+        display: inline;
+        margin: 20px;
+
+
+    }
+    .li{
+        text-decoration: none;
+    }
+     
