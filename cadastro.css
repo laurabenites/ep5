@@ -32,7 +32,7 @@ h1:after{
     height: 2px;
     margin-top: 10px;
     background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(255, 44, 209, 0.8) 20%,rgb(253, 35, 253) 53%,rgba(206, 14, 190, 0.8) 79%,rgba(147,184,189,0) 100%); 
-    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgb(212, 10, 179) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(185, 97, 178, 0.986) 20%,rgb(212, 10, 179) 53%,rgba(245, 140, 240, 0.8) 79%,rgba(147,184,189,0) 100%); 
   }
 
   p{
@@ -48,14 +48,14 @@ h1:after{
     position: relative;
   }
 
-  ::-webkit-input-placeholder  {
+  :-webkit-input-placeholder  {
     color: #d42020; 
     font-style: italic;
   }
    
   input:-moz-placeholder,
   textarea:-moz-placeholder{
-    color: #ea00ff;
+    color: #dd70e7;
     font-style: italic;
   }
 
@@ -102,7 +102,7 @@ h1:after{
 
   .link{
     position: absolute;
-    background: #e1eaeb;
+    background: #ff97ea;
     color: #7f7c7c;
     left: 0px;
     height: 20px;
@@ -110,7 +110,7 @@ h1:after{
     padding: 17px 30px 20px 30px;
     font-size: 16px;
     text-align: right;
-    border-top: 1px solid #dbe5e8;
+    border-top: 1px solid #e00ec4;
    
     -webkit-border-radius: 0 0  5px 5px;
     border-radius: 0 0  5px 5px;
@@ -122,7 +122,7 @@ h1:after{
     padding: 6px;
     color: rgb(221, 63, 195);
     margin-left: 10px;
-    border: 1px solid #a918d5;
+    border: 1px solid #f060f5;
    
     -webkit-border-radius: 4px;
     border-radius: 4px;  
@@ -147,7 +147,7 @@ h1:after{
     background: #f7f7f7;
     border: 1px solid rgba(255, 0, 179, 0.8);
      
-    webkit-box-shadow: 5px;
+   :-webkit-box-shadow: 5px;
     border-radius: 5px;
      
     -webkit-animation-duration: 0.5s;
